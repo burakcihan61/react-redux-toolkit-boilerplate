@@ -1,0 +1,7 @@
+dist
+public
+package.json
+.github
+.vscode
+node_modules
+.idea
