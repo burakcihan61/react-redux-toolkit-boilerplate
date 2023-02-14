@@ -15,7 +15,7 @@
 ### 1. Repo'yu klonla:
 
 ```bash
-git clone (https://github.com/burakcihan61/react-redux-toolkit-boilerplate.git)
+git clone https://github.com/burakcihan61/react-redux-toolkit-boilerplate.git
 ```
 
 ### 2. Bağımlılıkları yükle:
