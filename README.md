@@ -1,2 +1,2 @@
 # react-boilerplate
-React boilerplate
+React Redux Toolkit Boilerplate
