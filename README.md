@@ -1,6 +1,4 @@
-# react-redux-toolkit-boilerplate
-
-## React Redux Toolkit Boilerplate
+# React Redux Toolkit Boilerplate
 
 
 ## Kullanılan Teknoloji ve Sistemler
