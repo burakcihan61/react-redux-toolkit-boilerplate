@@ -4,10 +4,11 @@
 ## Kullanılan Teknoloji ve Sistemler
 
 - [React 18](https://github.com/facebook/react)
+- [Vite](https://vitejs.dev/) — Sonunda size yetişebilecek bir geliştirme ortamına hazır olun.
 - [TypeScript](https://github.com/microsoft/TypeScript)
-- [ESLint](https://github.com/eslint/eslint) — Kodunuzdaki hataları belli kurallara göre bulmak ve düzeltmek için
-- [Prettier](https://github.com/prettier/prettier) — Kodu belli bir kurala göre formatlamak için
-- [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/) — Global state yönetimi için
+- [ESLint](https://github.com/eslint/eslint) — Kodunuzdaki hataları belli kurallara göre bulmak ve düzeltmek için.
+- [Prettier](https://github.com/prettier/prettier) — Kodu belli bir kurala göre formatlamak için.
+- [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/) — Global state yönetimi için.
 
 ## Başlangıç
 
