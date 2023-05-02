@@ -7,7 +7,18 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "npx eslint src",
+    "lint:fix": "npm lint --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,json}\"",
+    "validate": "prettier --check \"src/**/*.{js,jsx,ts,tsx,css,json}\" && npm lint"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "npm format",
+      "npm lint:fix",
+      "npm validate"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
@@ -36,6 +47,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "jsdom": "^21.1.0",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5",
     "vite": "^4.1.0"
